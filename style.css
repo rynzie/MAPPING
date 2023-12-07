@@ -1,0 +1,57 @@
+form {
+  margin: 20px 0;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input[type='text'] {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type='submit'] {
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type='submit']:hover {
+  background-color: #3e8e41;
+}
+#map {
+  height: 500px;
+  width: 70%;
+  float: left;
+}
+
+#cards {
+  width: 30%;
+  float: right;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 10px;
+  max-width: 100%;
+}
+
+.container-nav {
+  display: flex;
+}
+
+.ul-nav {
+  display: flex;
+}
+
+.a-nav {
+  display: flex;
+}
